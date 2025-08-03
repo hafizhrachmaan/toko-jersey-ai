@@ -1,0 +1,102 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/node_modules_next_dist_01fcdebf._.js",
+      "static/chunks/app_favicon_ico_mjs_c5600bb8._.js",
+      "static/chunks/[root-of-the-server]__9d126714._.css",
+      "static/chunks/app_layout_tsx_68b267f5._.js",
+      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_ef62684a.js",
+      "static/chunks/_8afa53b1._.js",
+      "static/chunks/app_page_tsx_ef62684a._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",
+      "static/chunks/node_modules_next_dist_compiled_0f1b9fd4._.js",
+      "static/chunks/node_modules_next_dist_client_20b209c9._.js",
+      "static/chunks/node_modules_next_dist_445d8acf._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_8e433861._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_01f48b92._.js"
+    ]
+  }
+}
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [
+    "static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6aaa83c7._.js",
+    "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js",
+    "static/chunks/node_modules_next_dist_compiled_next-devtools_index_d575f738.js",
+    "static/chunks/node_modules_next_dist_compiled_0f1b9fd4._.js",
+    "static/chunks/node_modules_next_dist_client_20b209c9._.js",
+    "static/chunks/node_modules_next_dist_445d8acf._.js",
+    "static/chunks/node_modules_@swc_helpers_cjs_8e433861._.js",
+    "static/chunks/_e69f0d32._.js",
+    "static/chunks/_01f48b92._.js"
+  ],
+  "ampFirstPages": []
+}
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [],
+  "ampFirstPages": []
+}
+{"type": "commonjs"}
+const CHUNK_PUBLIC_PATH = "postcss.js";
+const runtime = require("./build/chunks/[turbopack]_runtime.js");
+runtime.loadChunk("build/chunks/[turbopack-node]_transforms_postcss_ts_fe296651._.js");
+runtime.loadChunk("build/chunks/[root-of-the-server]__9abb3e35._.js");
+runtime.getOrInstantiateRuntimeModule("[turbopack-node]/globals.ts [postcss] (ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+
+{
+  "version": 3,
+  "sources": [],
+  "sections": []
+}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "2af9276b4bbab19f2335ee72df70a109",
+    "previewModeSigningKey": "7e5db1fabf8714cb8c702340db72ffbf9b9c85d832d500785089bf7fa93d2fef",
+    "previewModeEncryptionKey": "f854f922ffd397bcc58079afac2c849c0935c33320fe2116bdcb8ebd7e426152"
+  }
+}
+{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+[{"name":"hot-reloader","duration":149,"timestamp":1276888808868,"id":3,"tags":{"version":"15.4.5"},"startTime":1754139559469,"traceId":"0489a1441008e29c"},{"name":"setup-dev-bundler","duration":1036150,"timestamp":1276888780827,"id":2,"parentId":1,"tags":{},"startTime":1754139559441,"traceId":"0489a1441008e29c"},{"name":"start-dev-server","duration":5117172,"timestamp":1276885485843,"id":1,"tags":{"cpus":"8","platform":"win32","memory.freeMem":"5616750592","memory.totalMem":"16937418752","memory.heapSizeLimit":"8518631424","memory.rss":"178769920","memory.heapTotal":"103165952","memory.heapUsed":"73645776"},"startTime":1754139556147,"traceId":"0489a1441008e29c"},{"name":"compile-path","duration":10548912,"timestamp":1276900261989,"id":6,"tags":{"trigger":"/"},"startTime":1754139570922,"traceId":"0489a1441008e29c"},{"name":"ensure-page","duration":10552093,"timestamp":1276900260018,"id":5,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754139570921,"traceId":"0489a1441008e29c"}]
+[{"name":"ensure-page","duration":78639,"timestamp":1276910828675,"id":7,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754139581489,"traceId":"0489a1441008e29c"},{"name":"handle-request","duration":12531862,"timestamp":1276900224091,"id":4,"tags":{"url":"/"},"startTime":1754139570885,"traceId":"0489a1441008e29c"},{"name":"memory-usage","duration":47,"timestamp":1276912756199,"id":8,"parentId":4,"tags":{"url":"/","memory.rss":"515833856","memory.heapUsed":"102260264","memory.heapTotal":"134742016"},"startTime":1754139583417,"traceId":"0489a1441008e29c"},{"name":"compile-path","duration":1034765,"timestamp":1276913035296,"id":11,"tags":{"trigger":"/favicon.ico"},"startTime":1754139583696,"traceId":"0489a1441008e29c"}]
+[{"name":"ensure-page","duration":1049759,"timestamp":1276913034452,"id":10,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754139583695,"traceId":"0489a1441008e29c"},{"name":"ensure-page","duration":179044,"timestamp":1276914083550,"id":14,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754139584744,"traceId":"0489a1441008e29c"},{"name":"ensure-page","duration":182737,"timestamp":1276914094325,"id":15,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754139584755,"traceId":"0489a1441008e29c"},{"name":"handle-request","duration":1654870,"timestamp":1276913142608,"id":12,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754139583803,"traceId":"0489a1441008e29c"},{"name":"memory-usage","duration":44,"timestamp":1276914797749,"id":16,"parentId":12,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"539860992","memory.heapUsed":"120010760","memory.heapTotal":"142159872"},"startTime":1754139585458,"traceId":"0489a1441008e29c"},{"name":"handle-request","duration":1805298,"timestamp":1276913029171,"id":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754139583690,"traceId":"0489a1441008e29c"},{"name":"memory-usage","duration":19,"timestamp":1276914834653,"id":17,"parentId":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"530644992","memory.heapUsed":"101876528","memory.heapTotal":"134254592"},"startTime":1754139585495,"traceId":"0489a1441008e29c"},{"name":"compile-path","duration":5016429,"timestamp":1276932920513,"id":20,"tags":{"trigger":"/api/ask"},"startTime":1754139603581,"traceId":"0489a1441008e29c"}]
+[{"name":"next-dev","duration":458117317,"timestamp":1276882811868,"id":1,"tags":{},"startTime":1754139553472,"traceId":"0489a1441008e29c"}]
+[{"name":"hot-reloader","duration":276,"timestamp":1277442301680,"id":3,"tags":{"version":"15.4.5"},"startTime":1754140112962,"traceId":"d3e68d4426a365e4"},{"name":"setup-dev-bundler","duration":997882,"timestamp":1277442236512,"id":2,"parentId":1,"tags":{},"startTime":1754140112897,"traceId":"d3e68d4426a365e4"},{"name":"start-dev-server","duration":4331194,"timestamp":1277439338238,"id":1,"tags":{"cpus":"8","platform":"win32","memory.freeMem":"4987412480","memory.totalMem":"16937418752","memory.heapSizeLimit":"8518631424","memory.rss":"179617792","memory.heapTotal":"102785024","memory.heapUsed":"71111160"},"startTime":1754140110004,"traceId":"d3e68d4426a365e4"},{"name":"compile-path","duration":9363070,"timestamp":1277448312926,"id":6,"tags":{"trigger":"/"},"startTime":1754140118973,"traceId":"d3e68d4426a365e4"},{"name":"ensure-page","duration":9371361,"timestamp":1277448307677,"id":5,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754140118968,"traceId":"d3e68d4426a365e4"}]
+[{"name":"ensure-page","duration":107835,"timestamp":1277457729700,"id":7,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754140128390,"traceId":"d3e68d4426a365e4"},{"name":"handle-request","duration":11734255,"timestamp":1277448256159,"id":4,"tags":{"url":"/"},"startTime":1754140118916,"traceId":"d3e68d4426a365e4"},{"name":"memory-usage","duration":133,"timestamp":1277459991595,"id":8,"parentId":4,"tags":{"url":"/","memory.rss":"541949952","memory.heapUsed":"100853032","memory.heapTotal":"136699904"},"startTime":1754140130652,"traceId":"d3e68d4426a365e4"},{"name":"compile-path","duration":785166,"timestamp":1277460300053,"id":12,"tags":{"trigger":"/favicon.ico"},"startTime":1754140130960,"traceId":"d3e68d4426a365e4"}]
+[{"name":"ensure-page","duration":812397,"timestamp":1277460299112,"id":11,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140130959,"traceId":"d3e68d4426a365e4"},{"name":"ensure-page","duration":138209,"timestamp":1277461102351,"id":14,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140131763,"traceId":"d3e68d4426a365e4"},{"name":"ensure-page","duration":132768,"timestamp":1277461119482,"id":15,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140131780,"traceId":"d3e68d4426a365e4"},{"name":"handle-request","duration":1472310,"timestamp":1277460296432,"id":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754140130957,"traceId":"d3e68d4426a365e4"},{"name":"memory-usage","duration":243,"timestamp":1277461768840,"id":16,"parentId":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"564879360","memory.heapUsed":"118810432","memory.heapTotal":"143069184"},"startTime":1754140132429,"traceId":"d3e68d4426a365e4"},{"name":"handle-request","duration":1489880,"timestamp":1277460292883,"id":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754140130953,"traceId":"d3e68d4426a365e4"},{"name":"memory-usage","duration":16,"timestamp":1277461782899,"id":17,"parentId":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"557662208","memory.heapUsed":"105171936","memory.heapTotal":"139567104"},"startTime":1754140132443,"traceId":"d3e68d4426a365e4"},{"name":"compile-path","duration":3774202,"timestamp":1277469934710,"id":20,"tags":{"trigger":"/api/ask"},"startTime":1754140140595,"traceId":"d3e68d4426a365e4"}]
+[{"name":"next-dev","duration":86230191,"timestamp":1277435778164,"id":1,"tags":{},"startTime":1754140106438,"traceId":"d3e68d4426a365e4"}]
+[{"name":"hot-reloader","duration":134,"timestamp":1277541070401,"id":3,"tags":{"version":"15.4.5"},"startTime":1754140211731,"traceId":"f72688bf37903ef1"},{"name":"setup-dev-bundler","duration":710836,"timestamp":1277541049547,"id":2,"parentId":1,"tags":{},"startTime":1754140211710,"traceId":"f72688bf37903ef1"},{"name":"start-dev-server","duration":3460180,"timestamp":1277538748650,"id":1,"tags":{"cpus":"8","platform":"win32","memory.freeMem":"4832043008","memory.totalMem":"16937418752","memory.heapSizeLimit":"8518631424","memory.rss":"179945472","memory.heapTotal":"102469632","memory.heapUsed":"70792000"},"startTime":1754140209410,"traceId":"f72688bf37903ef1"},{"name":"compile-path","duration":9675955,"timestamp":1277546316706,"id":6,"tags":{"trigger":"/"},"startTime":1754140216977,"traceId":"f72688bf37903ef1"},{"name":"ensure-page","duration":9680527,"timestamp":1277546314697,"id":5,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754140216975,"traceId":"f72688bf37903ef1"}]
+[{"name":"ensure-page","duration":98658,"timestamp":1277556013978,"id":7,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754140226675,"traceId":"f72688bf37903ef1"},{"name":"handle-request","duration":11127952,"timestamp":1277546277391,"id":4,"tags":{"url":"/"},"startTime":1754140216938,"traceId":"f72688bf37903ef1"},{"name":"memory-usage","duration":23,"timestamp":1277557406041,"id":8,"parentId":4,"tags":{"url":"/","memory.rss":"529104896","memory.heapUsed":"100864152","memory.heapTotal":"136962048"},"startTime":1754140228067,"traceId":"f72688bf37903ef1"},{"name":"compile-path","duration":780116,"timestamp":1277557657547,"id":12,"tags":{"trigger":"/favicon.ico"},"startTime":1754140228318,"traceId":"f72688bf37903ef1"}]
+[{"name":"ensure-page","duration":783256,"timestamp":1277557662423,"id":13,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140228323,"traceId":"f72688bf37903ef1"},{"name":"ensure-page","duration":175059,"timestamp":1277558445170,"id":14,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140229106,"traceId":"f72688bf37903ef1"},{"name":"ensure-page","duration":186233,"timestamp":1277558449637,"id":15,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754140229110,"traceId":"f72688bf37903ef1"},{"name":"handle-request","duration":1483234,"timestamp":1277557649521,"id":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754140228310,"traceId":"f72688bf37903ef1"},{"name":"memory-usage","duration":138,"timestamp":1277559132857,"id":16,"parentId":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"545026048","memory.heapUsed":"118538864","memory.heapTotal":"143069184"},"startTime":1754140229793,"traceId":"f72688bf37903ef1"},{"name":"handle-request","duration":1489221,"timestamp":1277557652135,"id":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754140228313,"traceId":"f72688bf37903ef1"},{"name":"memory-usage","duration":12,"timestamp":1277559141454,"id":17,"parentId":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"545038336","memory.heapUsed":"118791024","memory.heapTotal":"143069184"},"startTime":1754140229802,"traceId":"f72688bf37903ef1"},{"name":"compile-path","duration":3737307,"timestamp":1277564670406,"id":20,"tags":{"trigger":"/api/ask"},"startTime":1754140235331,"traceId":"f72688bf37903ef1"}]
+[{"name":"hot-reloader","duration":68,"timestamp":56662045139,"id":3,"tags":{"version":"15.4.5"},"startTime":1754206961986,"traceId":"0cea4b82e633d3e9"},{"name":"setup-dev-bundler","duration":1129329,"timestamp":56662034168,"id":2,"parentId":1,"tags":{},"startTime":1754206961975,"traceId":"0cea4b82e633d3e9"},{"name":"start-dev-server","duration":2625957,"timestamp":56660795149,"id":1,"tags":{"cpus":"8","platform":"win32","memory.freeMem":"6625579008","memory.totalMem":"16937418752","memory.heapSizeLimit":"8518631424","memory.rss":"178049024","memory.heapTotal":"104566784","memory.heapUsed":"71813296"},"startTime":1754206960736,"traceId":"0cea4b82e633d3e9"},{"name":"compile-path","duration":3535283,"timestamp":56712919352,"id":6,"tags":{"trigger":"/"},"startTime":1754207012860,"traceId":"0cea4b82e633d3e9"},{"name":"ensure-page","duration":3537145,"timestamp":56712918274,"id":5,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754207012859,"traceId":"0cea4b82e633d3e9"}]
+[{"name":"ensure-page","duration":40323,"timestamp":56716463165,"id":7,"parentId":3,"tags":{"inputPage":"/page"},"startTime":1754207016404,"traceId":"0cea4b82e633d3e9"},{"name":"handle-request","duration":4284813,"timestamp":56712907931,"id":4,"tags":{"url":"/"},"startTime":1754207012849,"traceId":"0cea4b82e633d3e9"},{"name":"memory-usage","duration":11,"timestamp":56717192913,"id":8,"parentId":4,"tags":{"url":"/","memory.rss":"510980096","memory.heapUsed":"107935032","memory.heapTotal":"123314176"},"startTime":1754207017134,"traceId":"0cea4b82e633d3e9"},{"name":"compile-path","duration":375439,"timestamp":56717305841,"id":12,"tags":{"trigger":"/favicon.ico"},"startTime":1754207017247,"traceId":"0cea4b82e633d3e9"}]
+[{"name":"ensure-page","duration":384718,"timestamp":56717307206,"id":13,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754207017248,"traceId":"0cea4b82e633d3e9"},{"name":"ensure-page","duration":61346,"timestamp":56717687186,"id":14,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754207017628,"traceId":"0cea4b82e633d3e9"},{"name":"ensure-page","duration":65591,"timestamp":56717695004,"id":15,"parentId":3,"tags":{"inputPage":"/favicon.ico/route"},"startTime":1754207017636,"traceId":"0cea4b82e633d3e9"},{"name":"handle-request","duration":845015,"timestamp":56717303198,"id":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754207017244,"traceId":"0cea4b82e633d3e9"},{"name":"memory-usage","duration":108,"timestamp":56718148265,"id":16,"parentId":9,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"527958016","memory.heapUsed":"109728800","memory.heapTotal":"126017536"},"startTime":1754207018089,"traceId":"0cea4b82e633d3e9"},{"name":"handle-request","duration":850517,"timestamp":56717304146,"id":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico"},"startTime":1754207017245,"traceId":"0cea4b82e633d3e9"},{"name":"memory-usage","duration":7,"timestamp":56718154715,"id":17,"parentId":10,"tags":{"url":"/favicon.ico?favicon.45db1c09.ico","memory.rss":"527982592","memory.heapUsed":"109981480","memory.heapTotal":"126017536"},"startTime":1754207018096,"traceId":"0cea4b82e633d3e9"},{"name":"compile-path","duration":1820785,"timestamp":56749205804,"id":20,"tags":{"trigger":"/api/ask"},"startTime":1754207049146,"traceId":"0cea4b82e633d3e9"}]
